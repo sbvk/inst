@@ -33,11 +33,22 @@
   position: fixed;
  bottom: 2px;
 
+    position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1000;
+    will-change:transform;
+	transform: translateZ(0);
+	display:flex;	
 }
 .bottomnav img{
-    display: inline;
-    padding-inline-start: 30px;
-    width: 40px;height:40px;
+  
+    width: 20px;height:90px;
+    flex-grow:1;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
 }
     
 </style>
